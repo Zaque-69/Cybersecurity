@@ -2,13 +2,17 @@
   <img width="300" alt="webui" src="assets/logo.jpg">
 </p>
 
-
 # Cybersecurity
 
 This repository contains writeups for various Capture The Flag (CTF) challenges from platforms such as:
 
 - CyberEDU
+- OmniCTF
 - picoCTF
+- ROCSC
+- UNbreakable
+- YouniHack
+- Others
 
 ## Structure
 
