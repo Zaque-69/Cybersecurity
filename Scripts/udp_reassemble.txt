@@ -1,0 +1,5 @@
+for stream in $(tshark -r capture.pcap -Y "udp.stream" -T fields -e udp.stream | sort -n | uniq); do
+	echo "=== UDP Stream $stream ==="
+		tshark -r capture.pcap -q -z follow,udp,ascii,$stream
+	echo
+done
